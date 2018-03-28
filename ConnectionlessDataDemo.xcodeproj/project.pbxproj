@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C861BF2069B3B500826D1A /* Data+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C861BE2069B3B500826D1A /* Data+Helpers.swift */; };
 		52E352EC2062EC80002632A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E352EB2062EC80002632A8 /* AppDelegate.swift */; };
-		52E352EE2062EC80002632A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E352ED2062EC80002632A8 /* ViewController.swift */; };
+		52E352EE2062EC80002632A8 /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E352ED2062EC80002632A8 /* ScanningViewController.swift */; };
 		52E352F12062EC80002632A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E352EF2062EC80002632A8 /* Main.storyboard */; };
 		52E352F32062EC80002632A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E352F22062EC80002632A8 /* Assets.xcassets */; };
 		52E352F62062EC80002632A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E352F42062EC80002632A8 /* LaunchScreen.storyboard */; };
+		52E352FE2062EC98002632A8 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E352FD2062EC98002632A8 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52C861BE2069B3B500826D1A /* Data+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Helpers.swift"; sourceTree = "<group>"; };
 		52E352E82062EC80002632A8 /* ConnectionlessDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectionlessDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E352EB2062EC80002632A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52E352ED2062EC80002632A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E352ED2062EC80002632A8 /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
 		52E352F02062EC80002632A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E352F22062EC80002632A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E352F52062EC80002632A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E352F72062EC80002632A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E352FD2062EC98002632A8 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				52E352EB2062EC80002632A8 /* AppDelegate.swift */,
-				52E352ED2062EC80002632A8 /* ViewController.swift */,
+				52E352ED2062EC80002632A8 /* ScanningViewController.swift */,
+				52E352FD2062EC98002632A8 /* BLEManager.swift */,
+				52C861BE2069B3B500826D1A /* Data+Helpers.swift */,
 				52E352EF2062EC80002632A8 /* Main.storyboard */,
 				52E352F22062EC80002632A8 /* Assets.xcassets */,
 				52E352F42062EC80002632A8 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E352EE2062EC80002632A8 /* ViewController.swift in Sources */,
+				52E352EE2062EC80002632A8 /* ScanningViewController.swift in Sources */,
+				52C861BF2069B3B500826D1A /* Data+Helpers.swift in Sources */,
+				52E352FE2062EC98002632A8 /* BLEManager.swift in Sources */,
 				52E352EC2062EC80002632A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
